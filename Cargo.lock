@@ -3,13 +3,36 @@
 version = 3
 
 [[package]]
+name = "aho-corasick"
+version = "1.1.2"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "b2969dcb958b36655471fc61f7e416fa76033bdd4bfed0678d8fee1e2d07a1f0"
+dependencies = [
+ "memchr",
+]
+
+[[package]]
 name = "aoclib"
 version = "0.2.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "9e8641208d3994f6429f6b93a2b173951a80fa0cce1f37cb004a8aca656671a7"
 
 [[package]]
+name = "memchr"
+version = "2.7.1"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "523dc4f511e55ab87b694dc30d0f820d60906ef06413f93d4d7a1385599cc149"
+
+[[package]]
 name = "y2023d01"
+version = "0.1.0"
+dependencies = [
+ "aho-corasick",
+ "aoclib",
+]
+
+[[package]]
+name = "y2023d02"
 version = "0.1.0"
 dependencies = [
  "aoclib",
