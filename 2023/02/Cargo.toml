@@ -8,4 +8,5 @@ name = "y2023d02"
 path = "src/02.rs"
 
 [dependencies]
+aho-corasick = "1.1.2"
 aoclib = "0.2.1"
