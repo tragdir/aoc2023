@@ -9,5 +9,3 @@ path = "src/03.rs"
 
 [dependencies]
 aoclib = "0.2.1"
-aho-corasick = "1.1.3"
-
